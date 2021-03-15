@@ -2,7 +2,7 @@
 require_once 'User.php';
 
 class Detail extends User {
-    public $like;
+    public $like = 0;
     public $post;
 
     public function __construct($_nome, $_cognome, $_post, $_like){

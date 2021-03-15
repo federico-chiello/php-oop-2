@@ -33,6 +33,8 @@ $utente1 = new User('Riccardo', 'Neri');
 $utente1->email = 'ricky_92@gmail.com';
 $utente1->username = 'nerone_7';
 $utente1->password = 'ciwbc1w9c49';
+$utente1->like = 35;
+$utente1->post = 2;
 
 
 try {
@@ -47,6 +49,7 @@ $utente2 = new User('Lorenzo', 'Onorato');
 $utente2->email = 'lollo@gmail.com';
 $utente2->username = 'renzo24';
 $utente2->password = 'edh893hd92dqp';
+$utente1->like = 40;
 
 try {
     $utente2->setEta(27);
