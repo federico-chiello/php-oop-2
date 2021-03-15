@@ -3,6 +3,11 @@ Tabella: Users del blog.
 
 
 User:
-Campi   Tipi di dato- Attributi
-id  =>  Numero- INT- Primary Key - AI e Unique
-
+[Campi]       [Tipi di dato- Attributi]
+id  =>        Numero- INT- Primary Key - AI e Unique
+nome =>       Stringa - VARCHAR(15) - NOT NULL
+cognome =>    Stringa - VARCHAR(15) - NOT NULL
+email =>      Stringa - VARCHAR(15) - NOT NULL
+età =>        Numero -  TINYINT - NOT NULL
+username =>   Stringa - VARCHAR(15) - NOT NULL
+password =>   Stringa - VARCHAR(20) - NOT NULL
