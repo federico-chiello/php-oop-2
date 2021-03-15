@@ -7,7 +7,7 @@ User:
 id  =>        Numero- INT- Primary Key - AI e Unique
 nome =>       Stringa - VARCHAR(15) - NOT NULL
 cognome =>    Stringa - VARCHAR(15) - NOT NULL
-email =>      Stringa - VARCHAR(15) - NOT NULL
+email =>      Stringa - VARCHAR(25) - NOT NULL
 età =>        Numero -  TINYINT - NOT NULL
-username =>   Stringa - VARCHAR(15) - NOT NULL
+username =>   Stringa - VARCHAR(20) - NOT NULL
 password =>   Stringa - VARCHAR(20) - NOT NULL
