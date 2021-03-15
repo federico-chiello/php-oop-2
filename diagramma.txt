@@ -1,0 +1,8 @@
+Database: Blog.
+Tabella: Users del blog.
+
+
+User:
+Campi   Tipi di dato- Attributi
+id  =>  Numero- INT- Primary Key - AI e Unique
+
